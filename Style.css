@@ -4,14 +4,14 @@ body {background-image: url('Images/background.jpg');
         background-size: cover;
 }
 
-#headerText {
+.headerText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: bold;
     text-decoration: underline;
     color: rgb(255, 255, 255);
 }
-#defaultText {
+.defaultText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color: rgb(255, 255, 255);
