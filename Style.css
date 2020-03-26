@@ -5,6 +5,13 @@ body {
     background-size: cover;
 }
 
+.ifNoJS {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(143, 0, 0);
+    text-align: center;
+}
 .headerTextNormal {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
@@ -56,7 +63,6 @@ body {
     font-size: 35px;
     color: rgb(255, 255, 255);
 }
-
 
 
 

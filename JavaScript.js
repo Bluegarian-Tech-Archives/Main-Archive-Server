@@ -12,3 +12,4 @@ function Reveal() {
     var rev = document.getElementById("Reveal Archive");
     rev.style.display = "block";
 }
+
