@@ -51,7 +51,11 @@ body {
     background-color: rgb(111, 157, 255);
 }
 
-
+.tableText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
 
 
 
