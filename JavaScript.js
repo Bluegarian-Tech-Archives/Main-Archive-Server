@@ -10,5 +10,5 @@ console.log('YEEEEEEEEEEEEEEEEEEEEEE')
 
 function Reveal() {
     var rev = document.getElementById("Reveal Archive");
-    rev.style.display = "block";  // <-- Set it to block
+    rev.style.display = "block";
 }

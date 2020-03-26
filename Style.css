@@ -5,22 +5,51 @@ body {
     background-size: cover;
 }
 
-.headerText {
+.headerTextNormal {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: bold;
     text-decoration: underline;
     color: rgb(255, 255, 255);
 }
-.defaultText {
+
+.headerTextCentered {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.defaultTextCentered {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.defaultTextNormal {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
 
+.buttonReveal {
+    background-color: rgb(180, 221, 255);
+    border: rgb(14, 0, 46);
+    border-style: solid;
+    color: rgb(9, 0, 94);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+  }
 
-
-
+.buttonReveal:hover, .buttonReveal:active {
+    background-color: rgb(111, 157, 255);
+}
 
 
 
