@@ -62,11 +62,28 @@ body {
 .tableText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(168, 213, 255);
+    text-align: center;
 }
 
+.tableContent:link {
+    color: rgb(255, 255, 255)
+  }
 
+.tableContent:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
 
+.tableContent:hover {
+    color: rgb(0, 41, 155);
+    background-color: transparent;
+    text-decoration: underline;
+}
 
-
-
+.tableContent:active {
+    color: rgb(0, 194, 10);
+    background-color: transparent;
+    text-decoration: underline;
+}
