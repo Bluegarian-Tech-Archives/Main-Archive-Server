@@ -87,3 +87,13 @@ body {
     background-color: transparent;
     text-decoration: underline;
 }
+
+.verify:hover {
+    border: solid;
+    border-color: rgb(0, 41, 155);
+}
+
+.verify:visited {
+    border: solid;
+    border-color: rgb(0, 41, 155);
+}
