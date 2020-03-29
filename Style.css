@@ -98,6 +98,20 @@ body {
     text-decoration: underline;
 }
 
+.verify:hover {
+    border-color: rgb(0, 41, 155);
+    border: 5px;
+    border-style: dashed;
+    border-collapse: collapse;
+}
+
+.verify:visited {
+    border-color: rgb(0, 41, 155);
+    border: 5px;
+    border-style: dashed;
+    border-collapse: collapse;
+}
+
 .imageCentered {
     display: block;
     margin-left: auto;
