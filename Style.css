@@ -102,14 +102,12 @@ body {
     border-color: rgb(0, 41, 155);
     border: 5px;
     border-style: dashed;
-    border-collapse: collapse;
 }
 
 .verify:visited {
     border-color: rgb(0, 41, 155);
     border: 5px;
     border-style: dashed;
-    border-collapse: collapse;
 }
 
 .imageCentered {
@@ -118,3 +116,12 @@ body {
     margin-right: auto;
     width: 50%;
   }
+
+.greenText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 214, 0);
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}

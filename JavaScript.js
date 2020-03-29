@@ -9,6 +9,8 @@ console.log('YEEEEEEEEEEEEEEEEEEEEEE')
 // <button onclick="spamYee()">Click Me to Spam YEEEEEEEEE in Console</button>
 
 function Reveal() {
+    alert('Authorization Success')
+    
     var rev = document.getElementById("Reveal Archive");
     rev.style.display = "block";
 }
