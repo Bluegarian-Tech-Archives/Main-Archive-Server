@@ -1,16 +1,16 @@
 deathMsg="WARNING: YOU HAVE BEEN DETECTED ATTEMPTING TO ACCESS THE FILES ON THIS ARCHIVE WITHOUT OFFICIAL APRROVAL. MTF TEAM DEPLOYED. SAY YOUR LAST WORDS.";
-
+alert('test');
 console.log(deathMsg);
 
 function spamYee() {
-console.log('YEEEEEEEEEEEEEEEEEEEEEE')
+console.log('YEEEEEEEEEEEEEEEEEEEEEE');
 }
 
 // <button onclick="spamYee()">Click Me to Spam YEEEEEEEEE in Console</button>
 
 function Reveal() {
-    alert('Authorization Success')
-    
+    alert('Authorization Success');
+
     var rev = document.getElementById("Reveal Archive");
     rev.style.display = "block";
 }
