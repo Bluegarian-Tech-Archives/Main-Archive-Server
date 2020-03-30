@@ -124,7 +124,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 920px;
-  height: 691px;
+  height: 693px;
   border-color: rgb(0, 41, 155);
   border: 5px;
   border-style: dashed;
@@ -132,4 +132,8 @@ body {
 
 .image-wrapper:hover {
   border-color: rgb(9, 255, 0);
+}
+
+.image-wrapper:active {
+  border-color: rgb(0, 41, 155);
 }
