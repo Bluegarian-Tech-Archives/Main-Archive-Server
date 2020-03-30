@@ -119,21 +119,21 @@ body {
     text-decoration: underline;
 }
 
-.image-wrapper {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 920px;
-  height: 693px;
-  border-color: rgb(0, 41, 155);
-  border: 5px;
-  border-style: dashed;
-}
-
 .image-wrapper:hover {
   border-color: rgb(9, 255, 0);
 }
 
 .image-wrapper:active {
   border-color: rgb(0, 41, 155);
+}
+
+.image-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgb(0, 41, 155);
+  width: 920px;
+  height: 692px;
+  border: 5px;
+  border-style: dashed;
 }
