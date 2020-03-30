@@ -126,10 +126,16 @@ body {
   width: 920px;
   height: 691px;
   border-color: rgb(0, 41, 155);
-  border: 7px;
+  border: 12px;
   border-style: dashed;
 }
 
 .image-wrapper:hover {
-  border-color: rgb(9, 255, 0);
+  border-color: rgb(0, 255, 200);;
+  border-style: solid;
 }
+
+.image-wrapper:active {
+    border-color: rgb(94, 255, 0);
+    border-style: ridge;
+  }
