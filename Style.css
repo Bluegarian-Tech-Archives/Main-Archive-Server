@@ -119,21 +119,17 @@ body {
     text-decoration: underline;
 }
 
-.image-wrapper:hover {
-  border-color: rgb(9, 255, 0);
-}
-
-.image-wrapper:active {
-  border-color: rgb(0, 41, 155);
-}
-
 .image-wrapper {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-color: rgb(0, 41, 155);
   width: 920px;
-  height: 692px;
-  border: 5px;
+  height: 691px;
+  border-color: rgb(0, 41, 155);
+  border: 7px;
   border-style: dashed;
+}
+
+.image-wrapper:hover {
+  border-color: rgb(9, 255, 0);
 }
