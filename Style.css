@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(0, 140, 255);
     background-image: url('Images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,9 +8,9 @@ body {
 
 .ifNoJS {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
-    color: rgb(143, 0, 0);
+    color: rgb(190, 29, 0);
     text-align: center;
 }
 
@@ -96,18 +97,6 @@ body {
     color: rgb(0, 194, 10);
     background-color: transparent;
     text-decoration: underline;
-}
-
-.verify:hover {
-    border-color: rgb(0, 41, 155);
-    border: 5px;
-    border-style: dashed;
-}
-
-.verify:visited {
-    border-color: rgb(0, 41, 155);
-    border: 5px;
-    border-style: dashed;
 }
 
 .greenText {
