@@ -12,16 +12,16 @@ function Reveal() {
     rev.style.display = "block";
 }
 
+// Rick Roll Troll lol
 function rickRolledBoi() {
     let rickRolled = document.getElementById("getRickRolled");
     rickRolled.play();
 }
 
-
-
-
-
-
+function stopRickRoll() {
+    let rickRolled = document.getElementById("getRickRolled");
+    rickRolled.pause();
+}
 
 
 
