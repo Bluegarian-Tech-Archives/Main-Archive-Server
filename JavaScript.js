@@ -3,7 +3,8 @@ deathMsg="WARNING: YOU HAVE BEEN DETECTED ATTEMPTING TO ACCESS THE FILES ON THIS
 
 console.log(deathMsg);
 
-//Reavel Archive if function "Reveal" is triggered by onClick
+// Reavel Archive if function "Reveal" is triggered by onClick
+
 function Reveal() {
     alert('Verification Success');
 
@@ -11,8 +12,10 @@ function Reveal() {
     rev.style.display = "block";
 }
 
-
-
+function rickRolledBoi() {
+    let rickRolled = document.getElementById("getRickRolled");
+    rickRolled.play();
+}
 
 
 
@@ -28,6 +31,6 @@ console.log('YEEEEEEEEEEEEEEEEEEEEEE');
 }
 
 
-
+// https://youtu.be/dQw4w9WgXcQ
 
 
