@@ -88,7 +88,7 @@ body {
 .tableText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: rgb(168, 213, 255);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -112,6 +112,10 @@ body {
     color: rgb(0, 194, 10);
     background-color: transparent;
     text-decoration: underline;
+}
+
+.smallFont {
+    font-size: 20px;
 }
 
 .greenText {
