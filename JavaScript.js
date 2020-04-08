@@ -23,6 +23,21 @@ function stopRickRoll() {
     rickRolled.pause();
 }
 
+//When hovering over a button for the table of contents
+
+function playTableHoverSound() {
+    let tableSoundPlay = document.getElementById("tableHoverSoundSrc");
+    tableSoundPlay.play();
+}
+
+
+
+
+
+
+
+
+
 
 
 function spamYee() {
