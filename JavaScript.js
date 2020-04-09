@@ -4,7 +4,6 @@ deathMsg="WARNING: YOU HAVE BEEN DETECTED ATTEMPTING TO ACCESS THE FILES ON THIS
 console.log(deathMsg);
 
 // Reavel Archive if function "Reveal" is triggered by onClick
-
 function Reveal() {
     alert('Verification Success');
 
@@ -12,7 +11,7 @@ function Reveal() {
     rev.style.display = "block";
 }
 
-// Rick Roll Troll lol
+// Rick Roll Troll
 function rickRolledBoi() {
     let rickRolled = document.getElementById("getRickRolled");
     rickRolled.play();
@@ -24,11 +23,39 @@ function stopRickRoll() {
 }
 
 //When hovering over a button for the table of contents
-
 function playTableHoverSound() {
     let tableSoundPlay = document.getElementById("tableHoverSoundSrc");
     tableSoundPlay.play();
 }
+
+//Music
+
+function playSweden() {
+    let swedenPlay = document.getElementById("Sweden");
+    swedenPlay.play();
+}
+function pauseSweden() {
+    let swedenPause = document.getElementById("Sweden");
+    swedenPause.pause();
+}
+
+function playCrabRave() {
+    let crabRavePlay = document.getElementById("CrabRave");
+    crabRavePlay.play();
+}
+function pauseCrabRave() {
+    let swedenPause = document.getElementById("CrabRave");
+    swedenPause.pause();
+}
+
+
+
+
+
+
+
+
+
 
 
 
