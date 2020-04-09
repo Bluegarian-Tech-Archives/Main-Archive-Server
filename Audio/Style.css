@@ -1,0 +1,220 @@
+body {
+    background-color: rgb(0, 140, 255);
+    background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.ifNoJS {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(190, 29, 0);
+    text-align: center;
+}
+
+::selection {
+    background-color: rgb(0, 81, 255);
+    color: rgb(0, 204, 177);
+}
+
+::-moz-selection {
+    background-color: rgb(0, 81, 255);
+    color: rgb(0, 204, 177);
+}
+
+.headerTextNormal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.headerTextCentered {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.warning {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 230, 0);
+    text-align: center;
+}
+
+
+.defaultTextCentered {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.defaultTextNormal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.rickRollButton, .rickRollButton:visited {
+    border-style: solid;
+    border-color: rgb(0, 20, 196);
+    background-color: rgb(0, 255, 213);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 20, 196);
+    padding: 6px 16px;
+}
+
+.rickRollButton:hover {
+    border-style: solid;
+    border-color: rgb(0, 20, 196);
+    background-color: rgb(0, 163, 155);
+}
+
+.rickRollButton:active {
+    border-style: solid;
+    border-color: rgb(51, 255, 0);
+    background-color: rgb(0, 255, 149);
+}
+
+.tableText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.tableContent:link {
+    color: rgb(255, 255, 255)
+  }
+
+.tableContent:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.tableContent:hover {
+    color: rgb(0, 41, 155);
+    background-color: rgb(0, 195, 255);
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.tableContent:active {
+    color: rgb(0, 194, 10);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.contentSelectorButton {
+    border-style: solid;
+    border-color: rgb(0, 3, 163);
+    border: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: right;
+    background-color: rgb(0, 195, 255);
+    color: rgb(0, 26, 255);
+    padding: 6px 16px;
+}
+
+.contentSelectorButton:hover, .contentSelectorButton:visited {
+    background-color: rgb(0, 162, 255);
+}
+
+.contentSelectorButton:active {
+    background-color: rgb(93, 204, 255);
+    border-color: rgb(21, 255, 0);
+}
+
+
+
+
+
+
+.smallFont {
+    font-size: 20px;
+}
+
+.greenText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 214, 0);
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.image-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 920px;
+  height: 691px;
+  border-color: rgb(0, 41, 155);
+  border: 12px;
+  border-style: dashed;
+}
+
+.image-wrapper:hover {
+  border-color: rgb(0, 255, 200);;
+  border-style: solid;
+}
+
+.image-wrapper:active {
+    border-color: rgb(94, 255, 0);
+    border-style: ridge;
+}
+
+.musicButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 23, 124);
+    background-color: rgb(0, 197, 197);
+    padding: 5px 10px;
+}
+.musicButton:hover {
+    background-color: rgb(0, 139, 139);
+}
+.musicButton:active {
+    background-color: rgb(0, 230, 230);
+}
+
+.musicText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 50, 187);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 15px;
+    color: white;
+    text-align: center;
+}
