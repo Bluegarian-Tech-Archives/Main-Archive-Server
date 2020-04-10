@@ -48,8 +48,14 @@ function pauseCrabRave() {
     swedenPause.pause();
 }
 
-
-
+function playMegalovania() {
+    let megalovaniaPlay = document.getElementById("Megalovania");
+    megalovaniaPlay.play();
+}
+function pauseMegalovania() {
+    let megalovaniaPause = document.getElementById("Megalovania");
+    megalovaniaPause.pause();
+}
 
 
 
