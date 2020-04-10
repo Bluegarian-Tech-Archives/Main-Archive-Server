@@ -146,6 +146,10 @@ body {
     font-size: 20px;
 }
 
+.superSmallFont {
+    font-size: 5px;
+}
+
 .greenText {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 214, 0);

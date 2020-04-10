@@ -28,7 +28,9 @@ function playTableHoverSound() {
     tableSoundPlay.play();
 }
 
-//Music
+// --- Music ---
+
+//Sweden
 
 function playSweden() {
     let swedenPlay = document.getElementById("Sweden");
@@ -43,6 +45,17 @@ function pauseSweden() {
     let swedenPause = document.getElementById("Sweden");
     swedenPause.pause();
 }
+function restartSweden() {
+    let audio = document.getElementById("Sweden");
+    if (audio.paused) {
+        audio.currentTime = 0
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+
+//Crab Rave
 
 function playCrabRave() {
     let crabRavePlay = document.getElementById("CrabRave");
@@ -57,6 +70,17 @@ function pauseCrabRave() {
     let crabRavePause = document.getElementById("CrabRave");
     crabRavePause.pause();
 }
+function restartCrabRave() {
+    let audio = document.getElementById("CrabRave");
+    if (audio.paused) {
+        audio.currentTime = 0
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+
+//Megalovania
 
 function playMegalovania() {
     let megalovaniaPlay = document.getElementById("Megalovania");
@@ -71,7 +95,15 @@ function pauseMegalovania() {
     let megalovaniaPause = document.getElementById("Megalovania");
     megalovaniaPause.pause();
 }
-
+function restartMegalovania() {
+    let audio = document.getElementById("Megalovania");
+    if (audio.paused) {
+        audio.currentTime = 0
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
 
 
 
