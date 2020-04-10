@@ -32,6 +32,11 @@ function playTableHoverSound() {
 
 function playSweden() {
     let swedenPlay = document.getElementById("Sweden");
+    let megalovaniaPause = document.getElementById("Megalovania");
+    let crabRavePause = document.getElementById("CrabRave");
+    megalovaniaPause.pause();
+    crabRavePause.pause();
+    
     swedenPlay.play();
 }
 function pauseSweden() {
@@ -41,15 +46,25 @@ function pauseSweden() {
 
 function playCrabRave() {
     let crabRavePlay = document.getElementById("CrabRave");
+    let swedenPause = document.getElementById("Sweden");
+    let megalovaniaPause = document.getElementById("Megalovania");
+    megalovaniaPause.pause();
+    swedenPause.pause();
+
     crabRavePlay.play();
 }
 function pauseCrabRave() {
-    let swedenPause = document.getElementById("CrabRave");
-    swedenPause.pause();
+    let crabRavePause = document.getElementById("CrabRave");
+    crabRavePause.pause();
 }
 
 function playMegalovania() {
     let megalovaniaPlay = document.getElementById("Megalovania");
+    let crabRavePause = document.getElementById("CrabRave");
+    let swedenPause = document.getElementById("Sweden");
+    swedenPause.pause();
+    crabRavePause.pause();
+
     megalovaniaPlay.play();
 }
 function pauseMegalovania() {
