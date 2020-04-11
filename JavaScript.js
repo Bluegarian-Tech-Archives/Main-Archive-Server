@@ -36,6 +36,9 @@ function playSweden() {
     let swedenPlay = document.getElementById("Sweden");
     let megalovaniaPause = document.getElementById("Megalovania");
     let crabRavePause = document.getElementById("CrabRave");
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
+
+    fallenKingdomPause.pause();
     megalovaniaPause.pause();
     crabRavePause.pause();
     
@@ -46,11 +49,21 @@ function pauseSweden() {
     swedenPause.pause();
 }
 function restartSweden() {
+    let megalovaniaPause= document.getElementById("Megalovania");
+    let crabRavePause = document.getElementById("CrabRave");
     let audio = document.getElementById("Sweden");
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
+    fallenKingdomPause.pause();
     if (audio.paused) {
         audio.currentTime = 0
+        fallenKingdomPause.pause();
+        megalovaniaPause.pause();
+        crabRavePause.pause();
         audio.play();
     }else{
+        fallenKingdomPause.pause();
+        megalovaniaPause.pause();
+        crabRavePause.pause();
         audio.currentTime = 0
     }
 }
@@ -61,6 +74,9 @@ function playCrabRave() {
     let crabRavePlay = document.getElementById("CrabRave");
     let swedenPause = document.getElementById("Sweden");
     let megalovaniaPause = document.getElementById("Megalovania");
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
+
+    fallenKingdomPause.pause();
     megalovaniaPause.pause();
     swedenPause.pause();
 
@@ -72,10 +88,19 @@ function pauseCrabRave() {
 }
 function restartCrabRave() {
     let audio = document.getElementById("CrabRave");
+    let swedenPause = document.getElementById("Sweden");
+    let megalovaniaPause = document.getElementById("Megalovania");
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
     if (audio.paused) {
         audio.currentTime = 0
+        fallenKingdomPause.pause();
+        megalovaniaPause.pause();
+        swedenPause.pause();
         audio.play();
     }else{
+        fallenKingdomPause.pause();
+        megalovaniaPause.pause();
+        swedenPause.pause();
         audio.currentTime = 0
     }
 }
@@ -86,6 +111,9 @@ function playMegalovania() {
     let megalovaniaPlay = document.getElementById("Megalovania");
     let crabRavePause = document.getElementById("CrabRave");
     let swedenPause = document.getElementById("Sweden");
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
+
+    fallenKingdomPause.pause();
     swedenPause.pause();
     crabRavePause.pause();
 
@@ -97,19 +125,59 @@ function pauseMegalovania() {
 }
 function restartMegalovania() {
     let audio = document.getElementById("Megalovania");
+    let crabRavePause = document.getElementById("CrabRave");
+    let swedenPause = document.getElementById("Sweden");
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
     if (audio.paused) {
+        fallenKingdomPause.pause();
+        swedenPause.pause();
+        crabRavePause.pause();
         audio.currentTime = 0
         audio.play();
     }else{
+        fallenKingdomPause.pause();
+        swedenPause.pause();
+        crabRavePause.pause();
         audio.currentTime = 0
     }
 }
 
+//Fallen Kingdom
 
+function playFallenKingdom() {
+    let fallenKingdomPlay = document.getElementById("Fallen Kingdom")
+    let megalovaniaPause = document.getElementById("Megalovania");
+    let crabRavePause = document.getElementById("CrabRave");
+    let swedenPause = document.getElementById("Sweden");
 
+    megalovaniaPause.pause();
+    swedenPause.pause();
+    crabRavePause.pause();
 
-
-
+    fallenKingdomPlay.play();
+}
+function pauseFallenKingdom() {
+    let fallenKingdomPause = document.getElementById("Fallen Kingdom")
+    fallenKingdomPause.pause();
+}
+function restartFallenKingdom() {
+    let audio = document.getElementById("Fallen Kingdom");
+    let megalovaniaPause = document.getElementById("Megalovania");
+    let crabRavePause = document.getElementById("CrabRave");
+    let swedenPause = document.getElementById("Sweden");
+    if (audio.paused) {
+        swedenPause.pause();
+        megalovaniaPause.pause();
+        crabRavePause.pause();
+        audio.currentTime = 0
+        audio.play();
+    }else{
+        swedenPause.pause();
+        crabRavePause.pause();
+        megalovaniaPause.pause();
+        audio.currentTime = 0
+    }
+}
 
 
 
