@@ -176,19 +176,6 @@ body {
     border-style: ridge;
 }
 
-.musicButton {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color: rgb(0, 23, 124);
-    background-color: rgb(0, 197, 197);
-    padding: 5px 10px;
-}
-.musicButton:hover {
-    background-color: rgb(0, 139, 139);
-}
-.musicButton:active {
-    background-color: rgb(0, 230, 230);
-}
 
 .musicText {
     font-family: Georgia, 'Times New Roman', Times, serif;
