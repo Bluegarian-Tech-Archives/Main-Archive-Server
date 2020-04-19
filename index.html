@@ -71,10 +71,6 @@ Below this text is the archive,
 <hr/>
 <hr/>
 
-
-
-
-
 <!-- Memetic kill agent -->
 
 <img src="Images/transparent image.jpg" alt="transparent background (failed to load)" style="width: 0;" height="500px">
@@ -186,31 +182,36 @@ to the Bluegarian Archives.<hr/>
 Music (listen to music while browsing archives)
 </pre>
 <pre class="defaultTextCentered">
-Please select a music file from the list below to listen too if you want to listen to music.
+If you want, please select a music file from the list below to listen to.
 (Under development)
 </pre>
 
 <table style="width:100%; text-align: left;">
     <tr>
-      <th class="musicText">Sweden</th>
+      <th id="Sweden" class="musicText" onclick="revealSweden()"><a href="#Sweden">Sweden</a></th>
       <th class="musicText">Crab Rave</th>
       <th class="musicText">Megalovania</th>
     </tr>
     <tr>
         <td>
-            <audio controls>
+            <div id="SwedenControls" style="display:none">
+            <audio controls title="Sweden">
                 <source src="Audio/C418 - Sweden - Minecraft Volume Alpha.mp3" type="audio/mpeg">
+                Your browser can't run the audio! (Do you have it disabled?)
             </audio>
             <pre class="smallFont"></pre>
+            </div>
         </td>
         <td>
-            <audio controls>
+            <audio controls title="Crab Rave">
                 <source src="Audio/Noisestorm - Crab Rave [Monstercat Release].mp3" type="audio/mpeg">
+                 Your browser can't run the audio! (Do you have it disabled?)
             </audio>
         </td>
         <td>
-            <audio controls>
+            <audio controls title="Megalovania">
                 <source src="Audio/Undertale OST - Megalovania.mp3" type="audio/mpeg">
+                Your browser can't run the audio! (Do you have it disabled?)
             </audio>
         </td>
       </tr>
@@ -219,9 +220,14 @@ Please select a music file from the list below to listen too if you want to list
     </tr>
     <tr>
         <td>
-            <audio controls>
+            <audio controls title="Fallen Kingdom">
                 <source src="Audio/Fallen Kingdom - A Minecraft Parody of Coldplay's Viva la Vida.mp3" type="audio/mpeg">
+                Your browser can't run the audio! (Do you have it disabled?)
             </audio>
+        </td>
+        <td>
+
+
         </td>
     </tr>
 </table>
@@ -242,11 +248,13 @@ Please select a music file from the list below to listen too if you want to list
 <div id="Weapons">
     <pre class="headerTextCentered" title="Weapons Section">Weapons</pre>
 
+    <a href="#Content-Selector">
+        <button class="contentSelectorButton" title="Jump to Content Selector">Back to Content Select</button>
+    </a>
+
 </div>
 
-    <a href="#Content-Selector">
-    <button class="contentSelectorButton" title="Jump to Content Selector">Back to Content Select</button>
-    </a>
+
 
 <div id="Prototypes">
     <pre class="headerTextCentered" title="Prototypes Section">Prototypes</pre>
