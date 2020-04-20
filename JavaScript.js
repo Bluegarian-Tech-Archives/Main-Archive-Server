@@ -11,7 +11,9 @@ function Reveal() {
     rev.style.display = "block";
 }
 
-// Rick Roll Troll
+// Rick Roll Troll (temp disabled)
+
+/*
 function rickRolledBoi() {
     let rickRolled = document.getElementById("getRickRolled");
     rickRolled.play();
@@ -21,6 +23,13 @@ function stopRickRoll() {
     let rickRolled = document.getElementById("getRickRolled");
     rickRolled.pause();
 }
+*/
+
+function stopRickRoll() {
+    alert('ERROR: Rick Roll has been removed from the site for now due to unofficial impression. This button is currently rendered useless.');
+}
+
+
 
 
 
