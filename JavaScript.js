@@ -1,25 +1,17 @@
 // Detect mobile user
-
-function isMobile () {
+function isMobile() {
 return /(phone Ipad|pod I iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec IwOSBrowser|BrowserNG IWebos ISymbian|Windows Phone)/i.test(navigator.userAgent)
-}
-
-if(isMobile()){
+}if(isMobile()){
     window.location.href = 'https://bluegarian-tech-archives.github.io/Mobile-Redirect/'
 }
 
-
-
-
-
-
-
-
-
 //Display in console
-deathMsg="WARNING: YOU HAVE BEEN DETECTED ATTEMPTING TO ACCESS THE FILES ON THIS ARCHIVE WITHOUT OFFICIAL APRROVAL. MTF TEAM DEPLOYED. SAY YOUR LAST WORDS.";
+console.log('%cWARNING: YOU HAVE BEEN DETECTED ATTEMPTING TO ACCESS THE FILES ON THIS ARCHIVE WITHOUT OFFICIAL ' +
+'APRROVAL. MTF TEAM DEPLOYED. SAY YOUR LAST WORDS.','background: yellow; color: red; font-size: 35px; font-family: Courier New; font-weight: bold;');
 
-console.log(deathMsg);
+
+
+
 
 // Reavel Archive if function "Reveal" is triggered by onClick
 function Reveal() {
@@ -28,6 +20,17 @@ function Reveal() {
     let rev = document.getElementById("Reveal Archive");
     rev.style.display = "block";
 }
+
+let closeVerification = document.getElementById('Verification Section');
+
+function verificationClose() {
+    let closeVerification = document.getElementById('Verification Section');
+    closeVerification.style.display = "none";
+}
+
+//THE BUTTON OF TP
+
+
 
 // Rick Roll Troll (temp disabled)
 
@@ -42,34 +45,15 @@ function stopRickRoll() {
     rickRolled.pause();
 }
 */
+ 
+// Close verification section
+
+
+
 
 function stopRickRoll() {
     alert('ERROR: Rick Roll has been removed from the site for now due to unofficial impression. This button is currently rendered useless.');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //When hovering over a button for the table of contents
@@ -77,64 +61,5 @@ function playTableHoverSound() {
     let tableSoundPlay = document.getElementById("tableHoverSoundSrc");
     tableSoundPlay.play();
 }
-
-//Audio Controls hide/reveal
-
-function revealSweden() {
-    let swedenReveal = document.getElementById("SwedenControls");
-    swedenReveal.style.display = "block";
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-$("audio1").each(function(){
-  $(this).bind("play",stopAll);
-});
-
-function stopAll(e){
-    var currentElementId=$(e.currentTarget).attr("id");
-    $("audio1").each(function(){
-        var $this=$(this);
-        var elementId=$this.attr("id");
-        if(elementId!=currentElementId){
-            $this[0].pause();
-        }
-    });
-}
-*/
-
-
-
-
-
-
-
-
-function spamYee() {
-console.log('YEEEEEEEEEEEEEEEEEEEEEE');
-// <button onclick="spamYee()">Click Me to Spam YEEEEEEEEE in Console</button>
-}
-
-
-// https://youtu.be/dQw4w9WgXcQ
 
 
